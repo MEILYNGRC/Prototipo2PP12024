@@ -1,9 +1,9 @@
-#ifndef MAINMENU_H
-#define MAINMENU_H
+#ifndef CATALOGMENU_H
+#define CATALOGMENU_H
 
-class MainMenu {
+class CatalogMenu {
 public:
-    MainMenu();
+    CatalogMenu();
     void displayMenu() const;
     void handleInput();
 

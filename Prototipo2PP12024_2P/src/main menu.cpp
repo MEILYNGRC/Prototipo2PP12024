@@ -1,5 +1,4 @@
-#include "main menu.h"
-#define MAINMENU_H
+#include "MainMenu.h"
 #include <iostream>
 
 MainMenu::MainMenu() {
@@ -19,4 +18,3 @@ void MainMenu::handleInput() {
     std::cin >> choice;
     // Lógica para manejar la entrada del usuario
 }
-

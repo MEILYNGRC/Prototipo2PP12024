@@ -1,9 +1,9 @@
-#ifndef MAINMENU_H
-#define MAINMENU_H
+#ifndef REPORTMENU_H
+#define REPORTMENU_H
 
-class MainMenu {
+class ReportMenu {
 public:
-    MainMenu();
+    ReportMenu();
     void displayMenu() const;
     void handleInput();
 
@@ -12,3 +12,4 @@ private:
 };
 
 #endif
+

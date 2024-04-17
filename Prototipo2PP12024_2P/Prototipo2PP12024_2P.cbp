@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -32,7 +34,19 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Auth.h" />
+		<Unit filename="include/ReportMenu.h" />
+		<Unit filename="include/catalogmenu.h" />
+		<Unit filename="include/ecabezado.h" />
+		<Unit filename="include/implementación.h" />
+		<Unit filename="include/main menu.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Auth.cpp" />
+		<Unit filename="src/ReportMenu.cpp" />
+		<Unit filename="src/catalogmenu.cpp" />
+		<Unit filename="src/ecabezado.cpp" />
+		<Unit filename="src/implementación.cpp" />
+		<Unit filename="src/main menu.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
